@@ -8,7 +8,6 @@ import time
 import re
 from subprocess import call
 from xml.dom.minidom import parseString
-
 class Logger(object):
     def __init__(self):
         self.terminal = sys.stdout
